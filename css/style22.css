@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+header{
+    background: linear-gradient(#0000005f, #0000005f), url("../img/header.webp")center/cover;
+    height: 100vh;
+}
+
+.container{
+    width: 77%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.logo{
+    display: flex;
+    gap:45px;
+    color: #fff;
+    align-items: center;
+}
+
+.logo a{
+    font: 700 24px "Playfair Display", sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.list ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.list a{
+    font: 400 14px "Open Sans", sans-serif;
+    color: #ffffffca;
+    transition: .4s;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    color: #ffffffca;
+    background-color: transparent;
+    font: 400 14px "Open Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.dropbtn:hover{
+    color: #fff;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    background-color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: block;
+ }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content2 {
+    padding: 20px 0;
+    display: none;
+    position: absolute;
+    left: 160px;
+    bottom: -110px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown2 i{
+    font-size: x-small;
+    margin-left: 45px;
+}
+  
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.list a:hover{
+    color:#FC8621;
+}
+
+.contact-button a{
+    font: 400 14px "Open Sans", sans-serif;
+    line-height: 1.5;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    border: 2px solid #ffffff55;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.contact-button a:hover{
+    background-color: #FC8621;
+    border: 2px solid #FC8621;
+}
+
+.header-section{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+
+}
+
+.header-section-top{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section-top h1{
+    width: 526px;
+    font: 700 60px "Playfair Display", sans-serif;
+    text-transform: capitalize;
+}
+
+
+.header-section-top{
+    display: flex;
+    gap: 50px;
+}
+
+.header-section-top p{
+    font: 400 16px "Open Sans", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-section-top i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    background-color: #fff; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-section-bottom{
+    color: #fff;
+    font: 400 14px "Open Sans", sans-serif;
+    margin: 190px 0 0 30px;
+}
+
+.header-section-bottom p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-section-bottom i{
+    font-size: x-small;
+    background-color: #0000006b;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.section-1, .section-2{
+    display: flex;
+    margin: 112px 0;
+    gap: 40px;
+}
+
+.section-1-content{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1-content span, .section-2-content span{
+    font: 600 18px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #FC8621;
+}
+
+.section-1-content h2 , .section-2-content h2{
+    font: 700 46px "Playfair Display", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.section-1-content p, .section-2-content p{
+    font: 400 14px "Open Sans", sans-serif;
+    color: #212529;
+    line-height: 1.5;
+}
+
+.section-1-content a{
+    width: 16%;
+    margin-top: 50px;
+    display: block;
+    font: 400 16px "Open Sans", sans-serif;
+    color: #fff;
+    background-color: #FC8621;
+    text-align: center;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.section-1-content a:hover{
+    background-color: #fc9842;
+}
+
+
+.section-1-images{
+    flex-basis: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.section-1 img{
+    width: 306px;
+    object-fit: cover;
+}
+
+.section-2{
+    gap: 0px;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.section-2-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2-content .icons{
+    flex-basis: 100%;
+    font-size: 54px;
+    color: #212529;
+    text-align: end;
+}
+
+.icons i{
+    transition: .4s;
+    cursor: pointer;
+}
+
+.section-2-content .icons i:hover{
+    color: #FC8621;
+    margin: 0 20px;
+    scale: 1.15;
+}
+
+.section-2-images .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    position: relative;
+}
+
+.section-2-images img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 412px;
+    margin: 40px 0;
+}
+
+.section-2-images .price1{
+    position: absolute;
+    bottom: 98px;
+    left: 305px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #FC8621;
+    font: 400 20px "Open Sans", sans-serif;
+}
+
+.section-2-images .price2{
+    position: absolute;
+    bottom: 98px;
+    left: 751px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #FC8621;
+    font: 400 20px "Open Sans", sans-serif;
+}
+
+.section-2-images .price3{
+    position: absolute;
+    bottom: 98px;
+    left: 1198px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #FC8621;
+    font: 400 20px "Open Sans", sans-serif;
+}
+
+.section-2-images .image p{
+    font: 400 14px "Open Sans", sans-serif;
+    text-transform: capitalize;
+    color: #999;
+}
+
+.section-2-images .image a{
+    color: #000;
+    font: 700 28px "Playfair Display", sans-serif;
+    text-transform: capitalize;
+}
+
+.section-2-images .icons{
+    text-align: center;
+    font-size: 8px;
+    margin: 30px 0;
+}
+
+.section-2-images .icons i{
+    color: #FC8621;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.section-3-bg{
+    background-color: #f8f9fa;
+}
+
+.section-3 .cards{
+    display: flex;
+    padding: 7rem 0;
+    gap: 112px;
+}
+
+.section-3 .cards p{
+    text-transform: uppercase;
+    color: #fc8621;
+    font: 700 18px "Open Sans", sans-serif;
+}
+
+.section-3 .cards h3{
+    font: 700 46px "Playfair Display", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.section-3 .cards img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.section-3 .cards h4{
+    font: 500 18px "Playfair Display", sans-serif;
+    font-size: 18px;
+    color: #fc8621;
+    text-transform: capitalize;
+}
+
+.section-3 .cards span{
+    color: #000;
+    line-height: 2;
+    margin-bottom: 3rem;
+    font: 400 14px "Open Sans", sans-serif;
+    text-transform: capitalize;
+}
+
+.section-3 .card, .para{
+    width: 545px;
+    font: 400 14px "Open Sans", sans-serif !important;
+    color: #000 !important; 
+    text-transform: lowercase !important;
+    padding: 40px 0;
+}
+
+.section-3 .icons{
+    font-size: 7px;
+    display: flex;
+    gap: 10px;
+    color: #FC8621;
+}
+
+.section-3 .card summary{
+    font: 400 16px "Playfair Display", sans-serif;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 15px 0 15px 20px;
+}
+
+.section-3 details p{
+    padding: 20px;
+    font: 400 14px "Open Sans", sans-serif !important;
+    color: #212529 !important;
+    text-transform: lowercase !important;
+}
+
+.section-4{
+    padding: 7rem 0;
+}
+
+.section-4 span{
+    font: 600 18px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #FC8621;
+}
+
+.section-4 h2{
+    font: 700 46px "Playfair Display", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.section-4 .cards{
+    display: flex;
+    margin-top: 40px;
+}
+
+.section-4 .card{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 img{
+    width: 306px;
+    height: 306px;
+}
+
+.section-4-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: fit-content;
+    margin: 20px 20px 50px;
+}
+
+.section-4-content span{
+    font: 400 12px "Open Sans", sans-serif;
+    color: #212529;
+}
+
+.section-4-content h3{
+    font: 700 16px "Playfair Display", sans-serif;
+    color: #000;
+}
+
+.section-4-content p{
+    font: 400 14px "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+.section-4-content a{
+    text-transform: capitalize;
+    color: #FC8621;
+    font: 400 14px "Open Sans", sans-serif;
+    margin-top: 5px;
+}
+
+.section-4-content i{
+    font-size: 10px;
+}
+
+.section-5-bg{
+    background-color: #FC8621;
+    padding: 48px 0;
+}
+
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-5 h3{
+    color:#fff;
+    font: 500 28px "Playfair Display", sans-serif;
+}
+
+.section-5 a{
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font: 400 16px "Open Sans", sans-serif;
+    transition: .5s;
+}
+
+.section-5 a:hover{
+    background-color: #fff;
+    color: #FC8621;
+}
+
+.footer-bg{
+    background-color: #efefef;
+    padding: 70px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 165px;
+}
+
+.footer-content ul p{
+    font: 700 16px "Playfair Display", sans-serif;
+    margin-bottom: 30px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.footer-content li, li a{
+    font: 400 14px "Open Sans", sans-serif;
+    color: #777;
+}
+
+.footer-content ul li a{
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-content i{
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+    margin-right: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    background-color: #777;
+    transition: .5s;
+}
+
+.footer-content i:hover{
+    background-color: #FC8621;
+}
