@@ -504,6 +504,11 @@ nav{
     color: #FC8621;
     font: 400 14px "Open Sans", sans-serif;
     margin-top: 5px;
+    transition: .4s;
+}
+
+.section-4-content a:hover{
+    color: #ca6b1a;
 }
 
 .section-4-content i{
